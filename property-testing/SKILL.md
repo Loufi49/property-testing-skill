@@ -263,6 +263,21 @@ file; open the one that matches the task in front of you, not all three.
 - Unbounded sizes, so the counterexample is unreadable and the run is slow.
 - Converting example tests, or adding properties to code with no property.
 
+## Before you report, check yourself
+
+Long instructions get skimmed; these five are the ones that get dropped in practice.
+
+- Every known boundary and every production incident is pinned as an explicit example next
+  to the generator. A property test with no pinned examples is not finished.
+- Generators for domain types live where the project keeps its shared test doubles, next to
+  the type's contract. The test file holds properties, not hundreds of lines of scaffolding.
+- Each property was shown to go red on a planted bug, and the report names which bug.
+- The report says "no counterexample in N runs over inputs of this shape", names what the
+  properties do not cover, and brings an open contract gap to the owner as a decision. A gap is
+  not buried in the suite as an expected-failure test.
+- One property test per function with a clear property; example tests untouched; no dependency
+  added without the owner's word.
+
 ## TypeScript: fast-check with Vitest
 
 - Plain `fc.assert(fc.property(...arbitraries, predicate))` inside an ordinary `it`;
